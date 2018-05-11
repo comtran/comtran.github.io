@@ -24,6 +24,12 @@ main {
 .member.container {
   padding: 2em 0;
 }
+.member .tile img {
+  clip-path: inset(10px 0px 40px 0px);
+  height: auto;
+  margin-top: -10px;
+  position: absolute;
+}
 section p {
   margin: 0 0 1em;
   text-align: justify;
