@@ -1,0 +1,37 @@
+body {
+  cursor: default;
+}
+header .level {
+  justify-content: flex-start;
+}
+header figure {
+  margin: 0 auto;
+}
+.comtran-avatar img {
+  border-radius: 100%;
+}
+header .level-right {
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 1em;
+}
+header h2.subtitle {
+  text-align: center
+}
+main {
+  min-height: 50vh;
+}
+.member.container {
+  padding: 2em 0;
+}
+section p {
+  margin: 0 0 1em;
+  text-align: justify;
+}
+section ol {
+  padding: 0 1em;
+}
+footer .icons a {
+  display: inline-block;
+  margin: 0 .25em;
+}
