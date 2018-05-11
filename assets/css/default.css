@@ -41,3 +41,7 @@ footer .icons a {
   display: inline-block;
   margin: 0 .25em;
 }
+
+.title {
+  padding: 20px;
+}
