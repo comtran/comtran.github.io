@@ -30,6 +30,10 @@ main {
   margin-top: -10px;
   position: absolute;
 }
+.member .tile .card-footer a {
+  color: #000;
+  margin: 0 .5em;
+}
 section p {
   margin: 0 0 1em;
   text-align: justify;
@@ -41,7 +45,28 @@ footer .icons a {
   display: inline-block;
   margin: 0 .25em;
 }
-
-.title {
-  padding: 20px;
+@media only screen and (max-width: 768px) {
+  .member .tile img {
+    clip-path: inset(10px 0px 180px 0px);
+  }
+}
+@media only screen and (max-width: 640px) {
+  .member .tile img {
+    clip-path: inset(10px 0px 140px 0px);
+  }
+}
+@media only screen and (max-width: 560px) {
+  .member .tile img {
+    clip-path: inset(10px 0px 120px 0px);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .member .tile img {
+    clip-path: inset(10px 0px 90px 0px);
+  }
+}
+@media only screen and (max-width: 360px) {
+  .member .tile img {
+    clip-path: inset(10px 0px 60px 0px);
+  }
 }
